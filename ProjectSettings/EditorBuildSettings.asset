@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/GoogleCardBoardBK.unity
-    guid: b0cd797f42c17ac44b8eb136da549567
+    path: Assets/Scenes/Acerca de.unity
+    guid: 5e478086f0365dc4d8585ccacb5e7b36
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: b4bce804d82e62241b495f84515c5eb0
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8a6d4cbbf9cb9e34c8b550e20c16d517,
       type: 2}
