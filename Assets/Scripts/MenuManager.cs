@@ -29,15 +29,7 @@ public class MenuManager : MonoBehaviour
     public void OnPointerClick()
     {
         
-        if (button == "Iniciar")
-        {
-            SceneManager.LoadScene("GoldenGateBridge");
-        }
-        else if (button == "Acerca de")
-        {
-            SceneManager.LoadScene("Acerca de");
-        }
-        else if (button == "Salir")
+        if (button == "Salir")
         {
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
@@ -47,6 +39,10 @@ public class MenuManager : MonoBehaviour
         else if (button == "Volver")
         {
             SceneManager.LoadScene("Menu");
+        }
+        else
+        {
+            SceneManager.LoadScene(button);
         }
     }
 
